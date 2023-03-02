@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  <link rel="stylesheet" href="style.css">
+  <title>Site</title>
+</head>
+<body>
+  <main>
+    <!-- HEADER -->
+    <header>
+      <div class="logo">
+        Apresentação Pessoal
+      </div>
+      <div class="menu">
+        <nav class="nav-list">
+            <a href="#home">Home</a>
+            <a href="#projects">Projetos</a>
+            <a href="#contact">Contato</a>
+        </nav>
+      </div>
+    </header>  
+    
+    <!-- HOME -->
+    <section id="home">
+      <div class="home-info">
+        <h2>Olá, sou o Vinícius</h2>
+        <table class="home-position" border="1">nome: Vinícius Donizeti dos Santos Ataliba (Vini)</br>
+          data de nascimento: 30/01/2004 (19 anos)</br>
+          cidade natal: Ituverava
+        </table>
+        <span class="home-resume">
+          <li>
+            certificados em cursos de informática básica;
+          </li>
+          <li>
+            programação back-end com typescript, nodejs e javascript
+          </li>
+          <li>
+            pouca experiência com front-end, incluindo html e css como repertório
+          </li>
+        </span>
+
+        <button>
+          <a href="#contact">Contate-me</a>
+        </button>
+      </div>
+      <div class="home-img">
+        <img src="./img/20230219_121217.jpg" alt="Foto de perfil">
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+
+    <section id="projects">
+      <h2>Experiência Profissional</h2>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/camara-ribeirao-preto.jpeg" alt="Foto de um site">
+            </div>
+            <div class="project-info">
+              <h2>Suporte Técnico na Câmara Municipal de Ribeirão Preto</h2>
+              <p>Auxiliava no suporte técnico nível um, que inclui o atendimento em bancada, 
+                configuração de contas e demais "a fazeres" da área.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/Como-escolher-uma-gráfica-rápida-e-de-qualidade.jpg" alt="Foto de uma loja online">
+            </div>
+            <div class="project-info">
+              <h2>Gráfica</h2>
+              <p>Trabalhei em uma gráfica por dois meses (odiava aquele lugar), 
+                onde eu mexia com o básico de photoshop para a criação de estampas para bolos, canecas e camisas
+                de eventos/festas de aniversário.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/pwc-703x422.jpg" alt="Foto de um sistema">
+            </div>
+            <div class="project-info">
+              <h2>Pwc - Pricewatercoopers</h2>
+              <p>Trabalho atualmente na área de auxiliar administrativo, organizando pastas e arquivos
+                para envio, redigindo emails e triturando papeladas (emprego chato). A única coisa relacionada
+              a TI que eu faço é a formatação de computadores</p>
+            </div>
+          </div>
+        </div>
+      
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+
+  <section id="contact">
+    <h2>Contato</h2>
+    <form>
+      <li> 
+        email: donizetevinicius250@gmail.com
+      </li>
+      <li><a style="text-decoration: underline; color: blue;" href="https://www.linkedin.com/in/vin%C3%ADcius-donizeti-dos-santos-ataliba-231233202/">
+        linkedin: https://www.linkedin.com/in/vin%C3%ADcius-donizeti-dos-santos-ataliba-231233202/
+      </a></li>
+      <li>
+        <a style="text-decoration: underline; color: blue;" href="https://github.com/vini3001">
+          github: https://github.com/vini3001
+        </a>
+      </li>
+    </form>
+  </section>
+  </main>  
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
